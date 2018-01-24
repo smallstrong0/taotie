@@ -8,7 +8,11 @@
 import scrapy
 
 
+# class TaotieItem(scrapy.Item):
+#     category = scrapy.Field()
+#     category_id = scrapy.Field()
+
+
 class TaotieItem(scrapy.Item):
-    # define the fields for your item here like:
-    category = scrapy.Field()
-    category_id = scrapy.Field()
+    text = scrapy.Field()
+    src = scrapy.Field()
